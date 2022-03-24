@@ -7,11 +7,11 @@
 # but with a different message if it’s odd. 
 # Change the string length so you can test all 
 # possible outcomes#
-text = "Welcome to Code Nation"
-lenth = len(text)
-print(text , "contain" , lenth ,"characters, including spaces.")
+# text = "Welcome to Code Nation"
+# lenth = len(text)
+# print(text , "contain" , lenth ,"characters, including spaces.")
 
-# # # # # # Activity 1/2 # # # # # #
+# # # # # # # Activity 1/2 # # # # # #
 def function(string):
     if len(string) % 2 == 0:
         print(f"word: {string} is even")
@@ -30,13 +30,36 @@ function("kalas")
 # Remember how index works - and think about how 
 # to structure your code
 
-alphabet = ["a","b","c","d"]
-
-for i in alphabet :
-    print(i)
-letter = input("Type a number from 0 to 26: ")
-num = int(letter)
-print(alphabet[num])
+alphabet = ["A",
+"B",
+"C",
+"D",
+"E",
+"F",
+"G",
+"H",
+"I",
+"J",
+"K",
+"L",
+"M",
+"N",
+"O",
+"P",
+"Q",
+"R",
+"S",
+"T",
+"U",
+"V",
+"W",
+"X",
+"Y",
+"Z"]
+def function1():
+    num = int(input("Type a number from 1 to 26: "))
+    print(alphabet[num - 1])
+function1()
 
 # # # # # # Activity 3 # # # # # 
 # Remember the noughts and crosses activity? Let’s revisit 
