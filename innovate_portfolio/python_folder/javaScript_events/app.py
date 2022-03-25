@@ -25,13 +25,14 @@ def page_3():
     return render_template("page_3.html")
 
 @app.route("/admin")
-def eadmin_page():
+def admin_page():
     return render_template("admin.html")
 
 
 @app.route("/javascript")
 def javascript_redirect():
     return redirect(url_for("home"))
+
 @app.route("/js")
 def js_redirect():
     return redirect(url_for("home"))
