@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}">
+    <script src="{{url_for('static', filename='app.js')}}"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+</head>
+<body onload="checkCookies()">
+    <div class="flex-container-h">
+    <div>
+    <h1>JavaScript Events</h1>
+    <a href="/">Home</a>
+    <a href="/page1">Page1</a>
+    <a href="/page2">Page2</a>
+    <a href="/page3">Page3</a>
+    <a href="/admin">Admin</a>
+    <div class="flex-container-h">
+        <button>{% block button %}Page 1{% endblock %}</button>
+    </div>
+    <h2>Innovate Coding</h2>
+    <p id="intro-text">This is an interactive website for demonstrating a selection of events in JavaScript.</p>
+
+    {% block content %}
+    {% endblock  %}
+</body>
+</html>

@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
 html{
     background-image: url('../static/images/back6.webp');
     background-repeat: no-repeat;
@@ -12,7 +17,8 @@ html{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family:  'Roboto', sans-serif;
+  
+  color: rgb(234, 229, 238);
    
    /* background-attachment: fixed; */
    /* background-position: center; */
@@ -23,7 +29,7 @@ h1{
     color: rgb(234, 229, 238);
 }
 h2{
-    color: rgb(70, 70, 70);
+    color: rgb(234, 229, 238);
 }
 a{
     /* display: flex; 
@@ -52,4 +58,61 @@ a:hover{
     justify-items: flex-end;
   
 
+  }
+ .about{
+    color: rgb(234, 229, 238); 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    width: 700px;
+    font-size: 25px;
+    margin-left: 200px;
+
+  }
+  .hello{
+      font-size: 120px;
+      margin-left: 200px;
+      margin-top: 150px;
+      font-family: 'Dancing Script', cursive;
+      color: rgb(234, 229, 238);
+  }
+  .Iam{
+    font-size: 35px;
+    margin-left: 200px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(234, 229, 238);
+  }
+  span{
+    font-size: 35px;
+      letter-spacing: 3px;
+  }
+  .junior{
+    font-size: 15px;
+    letter-spacing: 4px;
+  }
+
+  .cn{
+  border-radius: 10px;
+  }
+  .sda{
+    border-radius: 10px;
+    
+    
+
+  }
+  img{
+    margin: 20px;
+    height: 8rem;
+    width: 8rem;
+  }
+  .container{
+       display: flex;
+       
+      /* align-content: flex-end; */
+      
+  }
+  .master{
+    
+    margin: 5px;
+    width: 30%;
+    font-family: 'Josefin Sans', sans-serif;
   }
