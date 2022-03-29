@@ -1,0 +1,32 @@
+
+.desktop,.mobile{
+    display: none;
+    }
+
+@media(orientation: landscape){
+    body{
+        color:rgb(37, 34, 34);
+        background-color: cornsilk;
+        /* text-align: center; */
+        /* padding: 5%; */
+        font-size: 1rem;
+    }
+
+    .desktop{
+        display: inline-block;
+    }
+}
+@media(orientation: portrait){
+    body{
+        color:beige;
+        background-color: rgb(73, 73, 73);
+        /* text-align: center; */
+        /* padding: 5%; */
+        font-size: 1rem;
+    
+    }
+    .mobile{
+        display: inline-block;
+    }
+}
+
