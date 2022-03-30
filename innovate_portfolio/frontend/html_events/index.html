@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Events</title>
+</head>
+<body onload="chechCookies()">
+
+    <h1  onmouseover="mOver()"  onmouseout="mOut()" id="title">HTML Events with JS</h1>
+    <div>
+  <button onClick="displayDate()">DISPLAY DATE</button>
+  <p id="date"></p></div>
+
+
+  <div>
+      <p id="cookie"> </p></div>
+    </div>
+
+    <div>
+        <img oncopy="sendAlert()" src="./image/con.webp" alt="con">
+    </div>
+
+    <button onclick="mode()">change mode</button>
+</body>
+</html>

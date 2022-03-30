@@ -1,0 +1,13 @@
+body{
+    background-color: gainsboro;
+    font-family: monospace;
+}
+img{
+    width: 110px;
+    height: 100px;
+}
+
+.dark-mode{
+    background-color: darkolivegreen;
+    color:rgb(255, 255, 255);
+}
