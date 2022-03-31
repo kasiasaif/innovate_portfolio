@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(255, 249, 249);
+    color: grey;
+    font-family: monospace;
+}
+.dark-mode{
+    background-color: grey;
+    color: rgb(255, 249, 249);
+}
+
+.red-title{
+    color: crimson;
+}
